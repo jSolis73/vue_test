@@ -6,3 +6,6 @@ div {
     border: solid 3px black; 
     float: left;
 }
+#app2 {
+    height: 18px;
+}
