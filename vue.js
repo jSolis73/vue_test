@@ -5,5 +5,11 @@ let app = new Vue({
     }
 })
 let app2 = new Vue({
-    el: '#app2'
+    el: '#app2',
+    methods:{
+        rename: function(){
+            app.message='Goodbuy, world';
+            app2.$refs.change.innerText = 'Попрощаться';
+        }
+    }
 })

@@ -11,7 +11,10 @@
       {{message}}
     </div>
     <div id="app2">
-      <button @click='app.message="Goodbuy, world"'>Поменять приветствие</button>
+      <button ref="change"
+              @click='rename'
+      >Поменять приветствие
+      </button>
     </div>
     <script src="vue.js"></script>
     
