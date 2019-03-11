@@ -1,4 +1,4 @@
-div {
+#app, #app2 {
     width: 200px; 
     background: rgb(255, 219, 102);
     padding: 5px;

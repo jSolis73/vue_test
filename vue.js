@@ -13,3 +13,7 @@ let app2 = new Vue({
         }
     }
 })
+let app3 = new Vue({
+    template: '<h2>From template</h2>'
+})
+app3.$mount('#app3')
